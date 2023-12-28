@@ -1,0 +1,27 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 50%;
+}
+
+.progress{
+  width: 100%;
+  height: 30px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.progress span{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.progress div{
+  background: #00c251;
+  height: 100%;
+}
